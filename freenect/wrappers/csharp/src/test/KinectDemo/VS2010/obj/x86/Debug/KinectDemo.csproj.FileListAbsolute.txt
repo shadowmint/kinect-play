@@ -1,0 +1,6 @@
+D:\Workspace\kinect\libfreenect\wrappers\csharp\bin\KinectDemo.exe.config
+D:\Workspace\kinect\libfreenect\wrappers\csharp\bin\KinectDemo.exe
+D:\Workspace\kinect\libfreenect\wrappers\csharp\bin\KinectDemo.pdb
+D:\Workspace\kinect\libfreenect\wrappers\csharp\src\test\KinectDemo\VS2010\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Workspace\kinect\libfreenect\wrappers\csharp\src\test\KinectDemo\VS2010\obj\x86\Debug\KinectDemo.exe
+D:\Workspace\kinect\libfreenect\wrappers\csharp\src\test\KinectDemo\VS2010\obj\x86\Debug\KinectDemo.pdb

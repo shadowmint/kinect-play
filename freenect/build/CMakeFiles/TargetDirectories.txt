@@ -1,0 +1,11 @@
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/ALL_BUILD.dir
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/ZERO_CHECK.dir
+D:/Workspace/kinect/libfreenect/build/src/CMakeFiles/freenect.dir
+D:/Workspace/kinect/libfreenect/build/wrappers/c_sync/CMakeFiles/freenect_sync.dir
+D:/Workspace/kinect/libfreenect/build/wrappers/c_sync/CMakeFiles/freenect_sync_static.dir
+D:/Workspace/kinect/libfreenect/build/src/CMakeFiles/freenectstatic.dir
+D:/Workspace/kinect/libfreenect/build/examples/CMakeFiles/glpclview.dir
+D:/Workspace/kinect/libfreenect/build/examples/CMakeFiles/glview.dir
+D:/Workspace/kinect/libfreenect/build/examples/CMakeFiles/hiview.dir
+D:/Workspace/kinect/libfreenect/build/examples/CMakeFiles/tiltdemo.dir
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/uninstall.dir

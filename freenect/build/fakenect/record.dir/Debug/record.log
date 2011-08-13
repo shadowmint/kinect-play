@@ -1,0 +1,29 @@
+﻿Build started 8/13/2011 2:48:07 PM.
+     1>Project "D:\Workspace\kinect\libfreenect\build\fakenect\record.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "record.dir\Debug\record.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Workspace/kinect/libfreenect/fakenect/CMakeLists.txt
+         CMake does not need to re-run because D:\Workspace\kinect\libfreenect\build\fakenect\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Dev\VC\bin\CL.exe /c /ID:/Workspace/kinect/libfreenect/include /I"D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include" /ID:/Workspace/kinect/libfreenect/platform/windows /ID:/Workspace/kinect/libfreenect/platform/windows/libusb10emu /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"record.dir\Debug\\" /Fd"D:/Workspace/kinect/libfreenect/build/bin/Debug/record.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Workspace\kinect\libfreenect\fakenect\record.c  /Zm1000 
+         record.c
+     1>D:\Dev\VC\include\sys/stat.h(91): warning C4820: '_stat32' : '2' bytes padding added after data member 'st_gid'
+     1>D:\Dev\VC\include\sys/stat.h(107): warning C4820: 'stat' : '2' bytes padding added after data member 'st_gid'
+     1>D:\Dev\VC\include\sys/stat.h(123): warning C4820: '_stat32i64' : '2' bytes padding added after data member 'st_gid'
+     1>D:\Dev\VC\include\sys/stat.h(124): warning C4820: '_stat32i64' : '4' bytes padding added after data member 'st_rdev'
+     1>D:\Dev\VC\include\sys/stat.h(128): warning C4820: '_stat32i64' : '4' bytes padding added after data member 'st_ctime'
+     1>D:\Dev\VC\include\sys/stat.h(137): warning C4820: '_stat64i32' : '2' bytes padding added after data member 'st_gid'
+     1>D:\Dev\VC\include\sys/stat.h(151): warning C4820: '_stat64' : '2' bytes padding added after data member 'st_gid'
+     1>D:\Dev\VC\include\sys/stat.h(152): warning C4820: '_stat64' : '4' bytes padding added after data member 'st_rdev'
+     1>D:\Dev\VC\include\stdint.h(105): warning C4668: '_INTPTR' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(93): warning C4201: nonstandard extension used : nameless struct/union
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(129): warning C4820: '<unnamed-tag>' : '1' bytes padding added after data member 'tilt_angle'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(448): warning C4255: 'freenect_get_video_mode_count' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(500): warning C4255: 'freenect_get_depth_mode_count' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\fakenect\record.c(33): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+     1>Done Building Project "D:\Workspace\kinect\libfreenect\build\fakenect\record.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.21

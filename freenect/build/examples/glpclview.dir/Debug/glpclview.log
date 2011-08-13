@@ -1,0 +1,28 @@
+﻿Build started 8/13/2011 3:45:12 PM.
+     1>Project "D:\Workspace\kinect\libfreenect\build\examples\glpclview.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "glpclview.dir\Debug\glpclview.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Dev\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\kinect\libfreenect\build\bin\Debug\glpclview.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\lib\Debug\freenect_sync.lib glu32.lib opengl32.lib "D:\Workspace\kinect\pthreads-w32-2-8-0-release\lib\pthreadVC2.lib" ..\lib\Debug\freenect.lib "D:\Workspace\kinect\libusb-win32-bin-1.2.5.0\lib\msvc\libusb.lib" "D:\Workspace\kinect\glut-3.7.6-bin\glut32.lib" /MANIFEST /ManifestFile:"glpclview.dir\Debug\glpclview.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\kinect\libfreenect\build\bin\Debug\glpclview.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Workspace/kinect/libfreenect/build/bin/Debug/glpclview.lib" /MACHINE:X86 glpclview.dir\Debug\glpclview.exe.embed.manifest.res
+         glpclview.dir\Debug\glpclview.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"glpclview.dir\Debug\glpclview.exe.embed.manifest" /manifest glpclview.dir\Debug\glpclview.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"glpclview.dir\Debug\glpclview.exe.embed.manifest.res" glpclview.dir\Debug\glpclview_manifest.rc 
+       LinkEmbedManifest:
+         D:\Dev\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Workspace\kinect\libfreenect\build\bin\Debug\glpclview.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\lib\Debug\freenect_sync.lib glu32.lib opengl32.lib "D:\Workspace\kinect\pthreads-w32-2-8-0-release\lib\pthreadVC2.lib" ..\lib\Debug\freenect.lib "D:\Workspace\kinect\libusb-win32-bin-1.2.5.0\lib\msvc\libusb.lib" "D:\Workspace\kinect\glut-3.7.6-bin\glut32.lib" /MANIFEST /ManifestFile:"glpclview.dir\Debug\glpclview.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Workspace\kinect\libfreenect\build\bin\Debug\glpclview.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Workspace/kinect/libfreenect/build/bin/Debug/glpclview.lib" /MACHINE:X86 glpclview.dir\Debug\glpclview.exe.embed.manifest.res
+         glpclview.dir\Debug\glpclview.obj  /machine:X86 /debug 
+         glpclview.vcxproj -> D:\Workspace\kinect\libfreenect\build\bin\Debug\glpclview.exe
+       FinalizeBuildStatus:
+         Deleting file "glpclview.dir\Debug\glpclview.unsuccessfulbuild".
+         Touching "glpclview.dir\Debug\glpclview.lastbuildstate".
+     1>Done Building Project "D:\Workspace\kinect\libfreenect\build\examples\glpclview.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43

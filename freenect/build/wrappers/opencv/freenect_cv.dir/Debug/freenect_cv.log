@@ -1,0 +1,21 @@
+﻿Build started 8/13/2011 2:48:07 PM.
+     1>Project "D:\Workspace\kinect\libfreenect\build\wrappers\opencv\freenect_cv.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "freenect_cv.dir\Debug\freenect_cv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Workspace/kinect/libfreenect/wrappers/opencv/CMakeLists.txt
+         CMake does not need to re-run because D:\Workspace\kinect\libfreenect\build\wrappers\opencv\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Dev\VC\bin\CL.exe /c /ID:/Workspace/kinect/libfreenect/include /I"D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include" /ID:/Workspace/kinect/libfreenect/platform/windows /ID:/Workspace/kinect/libfreenect/platform/windows/libusb10emu /ID:/Workspace/kinect/libfreenect/wrappers/opencv/../c_sync /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D freenect_cv_EXPORTS /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"freenect_cv.dir\Debug\\" /Fd"D:/Workspace/kinect/libfreenect/build/lib/Debug/freenect_cv.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Workspace\kinect\libfreenect\wrappers\opencv\libfreenect_cv.c  /Zm1000 
+         libfreenect_cv.c
+     1>D:\Dev\VC\include\stdint.h(105): warning C4668: '_INTPTR' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(93): warning C4201: nonstandard extension used : nameless struct/union
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(129): warning C4820: '<unnamed-tag>' : '1' bytes padding added after data member 'tilt_angle'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(448): warning C4255: 'freenect_get_video_mode_count' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(500): warning C4255: 'freenect_get_depth_mode_count' : no function prototype given: converting '()' to '(void)'
+     1>d:\workspace\kinect\libfreenect\wrappers\opencv\libfreenect_cv.h(8): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+     1>Done Building Project "D:\Workspace\kinect\libfreenect\build\wrappers\opencv\freenect_cv.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14

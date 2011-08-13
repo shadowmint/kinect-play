@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/Workspace/kinect/libfreenect/wrappers/c_sync/CMakeLists.txt
+D:/Workspace/kinect/libfreenect/cmake_modules/FindThreads.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeParseArguments.cmake

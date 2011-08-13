@@ -1,0 +1,28 @@
+# CMake generation dependency list for this directory.
+D:/Workspace/kinect/libfreenect/CMakeLists.txt
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeSystem.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeCCompiler.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeCXXCompiler.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeCPlatform.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeCPlatform.cmake
+D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+D:/Workspace/kinect/libfreenect/cmake_modules/FindOS.cmake
+D:/Workspace/kinect/libfreenect/cmake_modules/SetupDirectories.cmake
+D:/Workspace/kinect/libfreenect/cmake_modules/Findlibusb-1.0.cmake
+C:/Program Files/CMake 2.8/share/cmake-2.8/Modules/TestBigEndian.cmake
+D:/Workspace/kinect/libfreenect/cmake_modules/UninstallTarget.cmake.in

@@ -1,0 +1,5 @@
+D:\Workspace\kinect\libfreenect\wrappers\csharp\bin\freenect.dll
+D:\Workspace\kinect\libfreenect\wrappers\csharp\bin\freenect.pdb
+D:\Workspace\kinect\libfreenect\wrappers\csharp\src\lib\VS2010\obj\Debug\ResolveAssemblyReference.cache
+D:\Workspace\kinect\libfreenect\wrappers\csharp\src\lib\VS2010\obj\Debug\freenect.dll
+D:\Workspace\kinect\libfreenect\wrappers\csharp\src\lib\VS2010\obj\Debug\freenect.pdb

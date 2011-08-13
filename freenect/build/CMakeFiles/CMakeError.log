@@ -1,0 +1,50 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:47 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  TestEndianess.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.48
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+

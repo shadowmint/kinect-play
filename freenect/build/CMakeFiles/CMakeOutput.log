@@ -1,0 +1,203 @@
+The system is: Windows - 5.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:30 PM.
+1>PrepareForBuild:
+1>  Creating directory "D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\".
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  testCCompiler.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:02.39
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:35 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCCompilerABI.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.59
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:37 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  testCXXCompiler.cxx
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.68
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:38 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMakeCXXCompilerABI.cpp
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.51
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:40 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CheckIncludeFile.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.60
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:42 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CheckIncludeFile.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.73
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:44 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CheckIncludeFile.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.56
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: D:/Workspace/kinect/libfreenect/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\Dev\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Build started 8/13/2011 2:30:46 PM.
+1>InitializeBuildStatus:
+1>  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  CMAKE_SIZEOF_UNSIGNED_SHORT.c
+1>LinkEmbedManifest:
+1>  cmTryCompileExec.vcxproj -> D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild".
+1>  Touching "cmTryCompileExec.dir\Debug\cmTryCompileExec.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:00.48
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+

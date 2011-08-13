@@ -1,0 +1,52 @@
+﻿Build started 8/13/2011 2:48:08 PM.
+     1>Project "D:\Workspace\kinect\libfreenect\build\wrappers\cpp\cppview.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "cppview.dir\Debug\cppview.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Workspace/kinect/libfreenect/wrappers/cpp/CMakeLists.txt
+         CMake does not need to re-run because D:\Workspace\kinect\libfreenect\build\wrappers\cpp\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Dev\VC\bin\CL.exe /c /ID:/Workspace/kinect/libfreenect/include /I"D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include" /ID:/Workspace/kinect/libfreenect/platform/windows /ID:/Workspace/kinect/libfreenect/platform/windows/libusb10emu /I"D:/Workspace/kinect/pthreads-w32-2-8-0-release/include" /ID:/Workspace/kinect/libfreenect/wrappers/cpp/. /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cppview.dir\Debug\\" /Fd"D:/Workspace/kinect/libfreenect/build/bin/Debug/cppview.pdb" /Gd /TP /analyze- /errorReport:prompt D:\Workspace\kinect\libfreenect\wrappers\cpp\cppview.cpp  /Zm1000 
+         cppview.cpp
+     1>D:\Dev\VC\include\stdint.h(105): warning C4668: '_INTPTR' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(129): warning C4820: '<unnamed-tag>' : '1' bytes padding added after data member '<unnamed-tag>::tilt_angle'
+     1>D:\Dev\VC\include\wchar.h(109): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::attrib'
+     1>D:\Dev\VC\include\wchar.h(114): warning C4820: '_wfinddata64i32_t' : '4' bytes padding added after data member '_wfinddata64i32_t::name'
+     1>D:\Dev\VC\include\wchar.h(118): warning C4820: '_wfinddata64_t' : '4' bytes padding added after data member '_wfinddata64_t::attrib'
+     1>D:\Dev\VC\include\wchar.h(488): warning C4820: '_stat32' : '2' bytes padding added after data member '_stat32::st_gid'
+     1>D:\Dev\VC\include\wchar.h(504): warning C4820: 'stat' : '2' bytes padding added after data member 'stat::st_gid'
+     1>D:\Dev\VC\include\wchar.h(520): warning C4820: '_stat32i64' : '2' bytes padding added after data member '_stat32i64::st_gid'
+     1>D:\Dev\VC\include\wchar.h(521): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_rdev'
+     1>D:\Dev\VC\include\wchar.h(525): warning C4820: '_stat32i64' : '4' bytes padding added after data member '_stat32i64::st_ctime'
+     1>D:\Dev\VC\include\wchar.h(534): warning C4820: '_stat64i32' : '2' bytes padding added after data member '_stat64i32::st_gid'
+     1>D:\Dev\VC\include\wchar.h(548): warning C4820: '_stat64' : '2' bytes padding added after data member '_stat64::st_gid'
+     1>D:\Dev\VC\include\wchar.h(549): warning C4820: '_stat64' : '4' bytes padding added after data member '_stat64::st_rdev'
+     1>D:\Dev\VC\include\crtdbg.h(1078): warning C4986: 'operator new[]': exception specification does not match previous declaration
+                 D:\Dev\VC\include\new(79) : see declaration of 'operator new[]'
+     1>D:\Dev\VC\include\crtdbg.h(1095): warning C4986: 'operator delete[]': exception specification does not match previous declaration
+                 D:\Dev\VC\include\new(77) : see declaration of 'operator delete[]'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(213): warning C4668: 'HAVE_CONFIG_H' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(223): warning C4668: 'HAVE_SIGNAL_H' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\sched.h(69): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(526): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(950): warning C4668: 'PTW32_LEVEL' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(950): warning C4668: 'PTW32_LEVEL_MAX' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(1125): warning C4668: 'PTW32_LEVEL' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(1125): warning C4668: 'PTW32_LEVEL_MAX' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(1181): warning C4668: 'PTW32_LEVEL' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(1181): warning C4668: 'PTW32_LEVEL_MAX' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(1279): warning C4668: 'PTW32_LEVEL' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\pthreads-w32-2-8-0-release\include\pthread.h(1279): warning C4668: 'PTW32_LEVEL_MAX' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>d:\workspace\kinect\libfreenect\wrappers\cpp\libfreenect.hpp(159): warning C4625: 'Freenect::FreenectDevice' : copy constructor could not be generated because a base class copy constructor is inaccessible
+     1>d:\workspace\kinect\libfreenect\wrappers\cpp\libfreenect.hpp(159): warning C4626: 'Freenect::FreenectDevice' : assignment operator could not be generated because a base class assignment operator is inaccessible
+     1>d:\workspace\kinect\libfreenect\wrappers\cpp\libfreenect.hpp(142): warning C4061: enumerator 'FREENECT_VIDEO_DUMMY' in switch of enum 'freenect_video_format' is not explicitly handled by a case label
+                 D:\Workspace\kinect\libfreenect\include\libfreenect.h(62) : see declaration of 'freenect_video_format'
+     1>d:\workspace\kinect\libfreenect\wrappers\cpp\libfreenect.hpp(211): warning C4820: 'Freenect::Freenect' : '3' bytes padding added after data member 'Freenect::Freenect::m_stop'
+     1>d:\workspace\kinect\libfreenect\wrappers\cpp\libfreenect.hpp(213): warning C4625: 'Freenect::Freenect' : copy constructor could not be generated because a base class copy constructor is inaccessible
+     1>d:\workspace\kinect\libfreenect\wrappers\cpp\libfreenect.hpp(213): warning C4626: 'Freenect::Freenect' : assignment operator could not be generated because a base class assignment operator is inaccessible
+     1>D:\Workspace\kinect\libfreenect\wrappers\cpp\cppview.cpp(41): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+     1>Done Building Project "D:\Workspace\kinect\libfreenect\build\wrappers\cpp\cppview.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56

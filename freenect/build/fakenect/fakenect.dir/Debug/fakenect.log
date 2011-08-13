@@ -1,0 +1,109 @@
+﻿Build started 8/13/2011 2:48:03 PM.
+     1>Project "D:\Workspace\kinect\libfreenect\build\fakenect\fakenect.vcxproj" on node 4 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\Workspace\kinect\libfreenect\build\lib\fakenect\Debug\".
+       InitializeBuildStatus:
+         Creating "fakenect.dir\Debug\fakenect.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Workspace/kinect/libfreenect/fakenect/CMakeLists.txt
+         CMake does not need to re-run because D:\Workspace\kinect\libfreenect\build\fakenect\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Dev\VC\bin\CL.exe /c /ID:/Workspace/kinect/libfreenect/include /I"D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include" /ID:/Workspace/kinect/libfreenect/platform/windows /ID:/Workspace/kinect/libfreenect/platform/windows/libusb10emu /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D fakenect_EXPORTS /D _WINDLL /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"fakenect.dir\Debug\\" /Fd"D:/Workspace/kinect/libfreenect/build/lib/fakenect/Debug/freenect.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Workspace\kinect\libfreenect\fakenect\fakenect.c  /Zm1000 
+         fakenect.c
+     1>D:\Dev\VC\include\stdint.h(105): warning C4668: '_INTPTR' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(93): warning C4201: nonstandard extension used : nameless struct/union
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(129): warning C4820: '<unnamed-tag>' : '1' bytes padding added after data member 'tilt_angle'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(448): warning C4255: 'freenect_get_video_mode_count' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\include\libfreenect.h(500): warning C4255: 'freenect_get_depth_mode_count' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(45): error C2059: syntax error : '}'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(57): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(58): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(60): warning C4013: 'sleep' undefined; assuming extern returning int
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(61): warning C4013: 'usleep' undefined; assuming extern returning int
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(65): warning C4255: 'get_time' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(67): error C2079: 'cur' uses undefined struct 'timeval'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(68): warning C4013: 'gettimeofday' undefined; assuming extern returning int
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(69): error C2224: left of '.tv_sec' must have struct/union type
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(69): error C2224: left of '.tv_usec' must have struct/union type
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(69): warning C4033: 'get_time' must return a value
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(77): warning C4242: '=' : conversion from 'int' to 'char', possible loss of data
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(94): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(96): error C2065: 'out' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(106): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(107): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(108): warning C4013: 'snprintf' undefined; assuming extern returning int
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(108): error C2065: 'file_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(108): error C2065: 'file_path_size' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(110): error C2275: 'FILE' : illegal use of this type as an expression
+                 D:\Dev\VC\include\stdio.h(66) : see declaration of 'FILE'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(110): error C2065: 'cur_fp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(110): error C2065: 'file_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(110): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(110): warning C4024: 'fopen' : different types for formal and actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(111): error C2065: 'cur_fp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(112): error C2065: 'file_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(116): error C2065: 'cur_fp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(116): warning C4047: 'function' : 'FILE *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(116): warning C4024: 'get_data_size' : different types for formal and actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(119): error C2065: 'cur_fp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(119): warning C4047: 'function' : 'FILE *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(119): warning C4024: 'fread' : different types for formal and actual parameter 4
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(123): error C2065: 'cur_fp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(123): warning C4047: 'function' : 'FILE *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(123): warning C4024: 'fclose' : different types for formal and actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(125): error C2065: 'file_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(125): warning C4022: 'free' : pointer mismatch for actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(129): warning C4255: 'open_index' : no function prototype given: converting '()' to '(void)'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(136): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(137): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(138): error C2065: 'index_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(138): error C2065: 'index_path_size' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(139): error C2065: 'index_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(139): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(139): warning C4024: 'fopen' : different types for formal and actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(141): error C2065: 'index_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(144): error C2065: 'index_path' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(144): warning C4022: 'free' : pointer mismatch for actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(170): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(171): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(172): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(173): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): error C2065: 'type' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): warning C4133: 'function' : incompatible types - from 'int *' to 'char *'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): error C2065: 'record_cur_time' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): warning C4133: 'function' : incompatible types - from 'int *' to 'double *'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): error C2065: 'timestamp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): warning C4057: 'function' : 'unsigned int *' differs in indirection to slightly different base types from 'int *'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): error C2065: 'data_size' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): warning C4057: 'function' : 'unsigned int *' differs in indirection to slightly different base types from 'int *'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): error C2065: 'data' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): warning C4047: 'function' : 'char **' differs in levels of indirection from 'int *'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(174): warning C4024: 'parse_line' : different types for formal and actual parameter 5
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(180): error C2065: 'record_cur_time' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(181): error C2065: 'record_cur_time' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(182): error C2065: 'type' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(185): error C2065: 'data' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(185): warning C4047: 'function' : 'char *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(185): warning C4024: 'skip_line' : different types for formal and actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(190): error C2065: 'timestamp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(195): error C2065: 'data' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(195): warning C4047: 'function' : 'char *' differs in levels of indirection from 'int'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(195): warning C4024: 'skip_line' : different types for formal and actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(200): error C2065: 'timestamp' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(204): error C2065: 'data_size' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(205): error C2065: 'data' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(205): warning C4022: 'memcpy' : pointer mismatch for actual parameter 2
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(214): error C2065: 'data_size' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(218): error C2065: 'data' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(218): warning C4022: 'free' : pointer mismatch for actual parameter 1
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(272): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(273): error C2065: 'out' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(273): error C2440: 'return' : cannot convert from 'int' to 'const freenect_frame_mode'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(281): error C2143: syntax error : missing ';' before 'type'
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(282): error C2065: 'out' : undeclared identifier
+     1>D:\Workspace\kinect\libfreenect\fakenect\fakenect.c(282): error C2440: 'return' : cannot convert from 'int' to 'const freenect_frame_mode'
+     1>Done Building Project "D:\Workspace\kinect\libfreenect\build\fakenect\fakenect.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.40

@@ -1,0 +1,16 @@
+﻿Build started 8/13/2011 2:48:09 PM.
+     1>Project "D:\Workspace\kinect\libfreenect\build\wrappers\opencv\cvdemo.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "cvdemo.dir\Debug\cvdemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule D:/Workspace/kinect/libfreenect/wrappers/opencv/CMakeLists.txt
+         CMake does not need to re-run because D:\Workspace\kinect\libfreenect\build\wrappers\opencv\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\Dev\VC\bin\CL.exe /c /ID:/Workspace/kinect/libfreenect/include /I"D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include" /ID:/Workspace/kinect/libfreenect/platform/windows /ID:/Workspace/kinect/libfreenect/platform/windows/libusb10emu /ID:/Workspace/kinect/libfreenect/wrappers/opencv/../c_sync /Zi /nologo /Wall /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cvdemo.dir\Debug\\" /Fd"D:/Workspace/kinect/libfreenect/build/bin/Debug/cvdemo.pdb" /Gd /TC /analyze- /errorReport:prompt D:\Workspace\kinect\libfreenect\wrappers\opencv\cvdemo.c  /Zm1000 
+         cvdemo.c
+     1>D:\Workspace\kinect\libfreenect\wrappers\opencv\cvdemo.c(1): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+     1>Done Building Project "D:\Workspace\kinect\libfreenect\build\wrappers\opencv\cvdemo.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.10

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{5803687A-384E-4CF6-A62C-8B8CFBB7BCBD}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Workspace/kinect/libfreenect/include;D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include;D:/Workspace/kinect/libfreenect/platform/windows;D:/Workspace/kinect/libfreenect/platform/windows/libusb10emu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Workspace/kinect/libfreenect/include;D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include;D:/Workspace/kinect/libfreenect/platform/windows;D:/Workspace/kinect/libfreenect/platform/windows/libusb10emu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Workspace/kinect/libfreenect/include;D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include;D:/Workspace/kinect/libfreenect/platform/windows;D:/Workspace/kinect/libfreenect/platform/windows/libusb10emu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:/Workspace/kinect/libfreenect/include;D:/Workspace/kinect/libusb-win32-bin-1.2.5.0/include;D:/Workspace/kinect/libfreenect/platform/windows;D:/Workspace/kinect/libfreenect/platform/windows/libusb10emu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\ALL_BUILD.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Workspace/kinect/libfreenect/build/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Workspace/kinect/libfreenect/build/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Workspace/kinect/libfreenect/build/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Build all projects</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Workspace/kinect/libfreenect/build/CMakeFiles/ALL_BUILD.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\ALL_BUILD;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Workspace/kinect/libfreenect/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -HD:/Workspace/kinect/libfreenect -BD:/Workspace/kinect/libfreenect/build --check-stamp-file D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Workspace/kinect/libfreenect/CMakeLists.txt;D:\Workspace\kinect\libfreenect\CMakeLists.txt;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeSystem.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCCompiler.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\FindOS.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\SetupDirectories.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\Findlibusb-1.0.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\TestBigEndian.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\UninstallTarget.cmake.in;D:\Workspace\kinect\libfreenect\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Workspace/kinect/libfreenect/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -HD:/Workspace/kinect/libfreenect -BD:/Workspace/kinect/libfreenect/build --check-stamp-file D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Workspace/kinect/libfreenect/CMakeLists.txt;D:\Workspace\kinect\libfreenect\CMakeLists.txt;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeSystem.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCCompiler.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\FindOS.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\SetupDirectories.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\Findlibusb-1.0.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\TestBigEndian.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\UninstallTarget.cmake.in;D:\Workspace\kinect\libfreenect\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Workspace/kinect/libfreenect/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -HD:/Workspace/kinect/libfreenect -BD:/Workspace/kinect/libfreenect/build --check-stamp-file D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Workspace/kinect/libfreenect/CMakeLists.txt;D:\Workspace\kinect\libfreenect\CMakeLists.txt;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeSystem.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCCompiler.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\FindOS.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\SetupDirectories.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\Findlibusb-1.0.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\TestBigEndian.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\UninstallTarget.cmake.in;D:\Workspace\kinect\libfreenect\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Workspace/kinect/libfreenect/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake 2.8\bin\cmake.exe" -HD:/Workspace/kinect/libfreenect -BD:/Workspace/kinect/libfreenect/build --check-stamp-file D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Workspace/kinect/libfreenect/CMakeLists.txt;D:\Workspace\kinect\libfreenect\CMakeLists.txt;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeSystem.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCCompiler.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCPlatform.cmake;D:\Workspace\kinect\libfreenect\build\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\FindOS.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\SetupDirectories.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\Findlibusb-1.0.cmake;C:\Program Files\CMake 2.8\share\cmake-2.8\Modules\TestBigEndian.cmake;D:\Workspace\kinect\libfreenect\cmake_modules\UninstallTarget.cmake.in;D:\Workspace\kinect\libfreenect\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Workspace\kinect\libfreenect\build\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Workspace\kinect\libfreenect\build\CMakeFiles\ALL_BUILD" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/ZERO_CHECK.vcxproj">
+      <Project>82FB7DD3-6D3A-486B-9635-BA59A4EC391B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/wrappers/c_sync/freenect_sync_static.vcxproj">
+      <Project>D4C086C9-78B2-4813-BE13-6C84140560CD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/src/freenectstatic.vcxproj">
+      <Project>A802585F-8660-4ABF-9DD2-82C43C5AEE99</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/examples/glpclview.vcxproj">
+      <Project>6F7DB130-6CE8-4C72-8F6C-1356773D24B9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/examples/glview.vcxproj">
+      <Project>53ABEDEC-DB37-4913-B020-4EEDC6527D82</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/examples/hiview.vcxproj">
+      <Project>DB032C54-751A-41FC-9B04-E812A46FCFDD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/Workspace/kinect/libfreenect/build/examples/tiltdemo.vcxproj">
+      <Project>8341A934-DAF4-47BA-99BC-AB750BA1F99B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
